@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/css/RootDOM.css';
-import ReactTooltip from 'react-tooltip';
-import Core from './assets/Core';
+import './jsx/css/Root.css';
+import Core from './jsx/Core';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Core />
-    <ReactTooltip className="Tooltip" />
   </React.StrictMode>,
   document.getElementById('root')
 );
